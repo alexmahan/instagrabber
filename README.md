@@ -15,13 +15,14 @@ How to use it:
 - Choose your default image size (t, m, or l)
 - Choose a container element (default is li)
 
+
     $(document).ready(function() {
         $('#instagram').instaGrabber({
-          // array of post IDs
-        	postID: ['UWYz6lnWaP','Ug1byJwEON','UfVDt4umPL','Lax092As8q'],
-        	// image size - options are t, m, or l
-        	imageSize: 't',
-        	// container element for each image, default is li
-        	container: 'li'
+            // array of post IDs
+            postID: ['UWYz6lnWaP','Ug1byJwEON','UfVDt4umPL','Lax092As8q'],
+            // image size - options are t, m, or l
+            imageSize: 't',
+            // container element for each image, default is li
+            container: 'li'
         });
     });
