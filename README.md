@@ -11,10 +11,6 @@ How to use it:
 1) Include jQuery  
 2) Include instagrabber.js  
 3) In your document ready, initialize the plugin as follows.  
-- Put a comma separated list of post IDs into the postID array
-- Choose your default image size (t, m, or l)
-- Choose a container element (default is li)
-
 
     $(document).ready(function() {
         $('#instagram').instaGrabber({
