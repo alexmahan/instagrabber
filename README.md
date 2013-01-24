@@ -1,7 +1,7 @@
 instaGrabber
 ============
 
-A jQuery plugin for grabbing and displaying *specific* Instagram posts.
+A simple jQuery plugin for grabbing and displaying *specific* Instagram posts.
 
 [jQuery Instagram](https://github.com/potomak/jquery-instagram) is great for getting Instagram pics by hashtag, user, or even location.
 
@@ -10,7 +10,7 @@ However, what if you want to display a list of images based on specific posts? i
 How to use it:  
 1) Include jQuery  
 2) Include instagrabber.js  
-3) In your document ready, initialize the plugin on some element. Insert your post IDs into the postID array. Choose your image size (t, m, or l). Choose your containing element. VOILA! You got specific posts.
+3) In your document ready, initialize the plugin on some element. Insert your post IDs into the postID array. Choose your image size (t, m, or l). Choose your containing element. Voilà! You got specific posts.
 
     $(document).ready(function() {
         $('#instagram').instaGrabber({
