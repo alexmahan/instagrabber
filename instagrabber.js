@@ -14,10 +14,9 @@
 					obj = $(this);
 					size = o.imageSize;
 					wrapper = o.container;
-					
-					$.each(o.postID, function (index,value) {
-						$(obj).append('<'+wrapper+'><a href="http://instagr.am/p/'+value+'"><img src="http://instagr.am/p/'+value+'/media/?size='+size+'"></a></'+wrapper+'>');
-					});
+				$.each(o.postID, function (index,value) {
+					$(obj).append('<'+wrapper+'><a href="http://instagr.am/p/'+value+'"><img src="http://instagr.am/p/'+value+'/media/?size='+size+'"></a></'+wrapper+'>');
+				});
 			});
 		}
 	});
