@@ -3,9 +3,9 @@
 		instaGrabber: function (options) {
 		
 			var settings = {
-					postID: [],
-					imageSize: 'm',
-					container: 'li'
+				postID: [],
+				imageSize: 'm',
+				container: 'li'
 			}
 			
 			var options =  $.extend(settings, options);
