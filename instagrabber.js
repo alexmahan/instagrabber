@@ -6,9 +6,9 @@
 				postID: [],
 				imageSize: 'm',
 				container: 'li'
-			}
+			};
 			
-			var options =  $.extend(settings, options);
+			options =  $.extend(settings, options);
 			
 			return this.each(function () {
 			
