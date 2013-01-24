@@ -10,7 +10,7 @@ However, what if you want to display a list of images based on specific posts? i
 How to use it:  
 1) Include jQuery  
 2) Include instagrabber.js  
-3) In your document ready, initialize the plugin as follows.  
+3) In your document ready, initialize the plugin on some element. Insert your post IDs into the postID array. Choose your image size (t, m, or l). Choose your containing element. VOILA! You got specific posts.
 
     $(document).ready(function() {
         $('#instagram').instaGrabber({
